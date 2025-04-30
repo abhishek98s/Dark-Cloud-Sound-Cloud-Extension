@@ -90,7 +90,10 @@ a.playbackSoundBadge__lightLink:focus {
 
 .sc-button-small.sc-button-icon:not(.sc-button-stretch-icon),
 .sc-button-small.sc-button-responsive:not(.sc-button-stretch-icon) {
-    background-color: #000 !important
+    background-color: #000 !important;
+	    background-color: #9d9d9d17 !important;
+    color: #b2b2b2 !important;
+
 }
 
 .sound__soundActions {
@@ -172,7 +175,7 @@ a.sc-link-dark {
 }
 
 .sc-button {
-    background-color: hsl(0 0% 13% / 1) !important;
+    background-color: hsl(0deg 0% 0% / 0%) !important;
 }
 
 a.sc-button-play.playButton.sc-button.sc-button-xlarge {
@@ -826,4 +829,16 @@ canvas.g-box-full.sceneLayer:first-of-type {
 
 .g-box-full.sceneLayer.waveformCommentsNode.loaded {
     display: none !important;
+}
+
+.skipControl svg {
+    color: #7e7e7e;
+}
+body:not(.sc-classic) .playbackTimeline__duration {
+    min-width: 30px;
+    color: #898989;
+}
+.playbackTimeline__timePassed {
+    text-align: right;
+    color: #868686 !important;
 }
